@@ -7,19 +7,16 @@
 - **Name:** Poorva Jaiswal 
 - **Registration Number:** 24BCE11486  
 
----
 
 ## Project Overview
 This project presents a structured audit of an open-source software system. It focuses on understanding the origin, philosophy, licensing, and technical working of the software along with practical implementation using shell scripting.
 
----
 
 ## Chosen Software
 **Git (Distributed Version Control System)**
 
 Git is an open-source version control system used to track changes in code and enable collaboration among developers.
 
----
 
 ## Objectives
 - Understand open-source philosophy  
@@ -28,7 +25,6 @@ Git is an open-source version control system used to track changes in code and e
 - Perform shell scripting tasks  
 - Compare open-source vs proprietary software  
 
----
 
 ## Repository Structure
 ```text
@@ -42,7 +38,6 @@ Git is an open-source version control system used to track changes in code and e
 └── report.pdf
 ```
 
----
 
 ## System Environment
 - **OS:** Windows  
@@ -52,7 +47,6 @@ Git is an open-source version control system used to track changes in code and e
 
 > Note: Git Bash was used as a Unix-like environment for executing shell scripts.
 
----
 
 ## Setup Instructions
 
@@ -61,7 +55,6 @@ git clone https://github.com/Poorva77/open-source-audit.git
 
 cd oss-audit
 
----
 
 ### 🔹 Give Execution Permission
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
@@ -75,49 +68,30 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 
 ./script1.sh
 
+![alt text](image.png)
 
-📸 **Screenshot Placeholder:**
-(Add screenshot of script1 output here)
-
----
 
 ### Script 2: FOSS Package Inspector
 
 ./script2.sh
 
 
-📸 **Screenshot Placeholder:**
-(Add screenshot of script2 output here)
-
----
-
 ### Script 3: Disk and Permission Auditor
 
 ./script3.sh
 
-
-📸 **Screenshot Placeholder:**
-(Add screenshot of script3 output here)
-
----
+![alt text](image-1.png)
 
 ### Script 4: Log File Analyzer
 
 ./script4.sh script1.sh echo
 
 
-📸 **Screenshot Placeholder:**
-(Add screenshot of script4 output here)
-
----
-
 ### Script 5: Manifesto Generator
 
 ./script5.sh
 
-
-📸 **Screenshot Placeholder:**
-(Add screenshot of script5 output here)
+![alt text](image-2.png)
 
 ---
 
@@ -126,27 +100,22 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ### 🔹 Script 1 — System Identity Report
 Displays system details such as user, kernel version, and date.
 
----
 
 ### 🔹 Script 2 — FOSS Package Inspector
 Checks if Git is installed and displays version information.
 
----
 
 ### 🔹 Script 3 — Disk and Permission Auditor
 Analyzes directory permissions and disk usage.
 
----
 
 ### 🔹 Script 4 — Log File Analyzer
 Counts occurrences of a keyword in a file.
 
----
 
 ### 🔹 Script 5 — Manifesto Generator
 Generates a personalized open-source philosophy statement.
 
----
 
 ## Dependencies
 - bash  
@@ -155,7 +124,6 @@ Generates a personalized open-source philosophy statement.
 - awk  
 - cut  
 
----
 
 ## Concepts Used
 - Variables  
@@ -164,12 +132,10 @@ Generates a personalized open-source philosophy statement.
 - File handling  
 - Command-line tools  
 
----
 
 ## Academic Integrity
 This project has been implemented and tested independently. All concepts are understood and applied practically.
 
----
 
 ## Submission Checklist
 -  GitHub Repository  
@@ -177,7 +143,6 @@ This project has been implemented and tested independently. All concepts are und
 -  5 Shell Scripts  
 -  Project Report PDF  
 
----
 
 ## Final Note
 This project demonstrates both the technical and philosophical aspects of open-source software and its importance in modern computing.
