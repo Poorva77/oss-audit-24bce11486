@@ -31,6 +31,12 @@ It allows developers to:
 ```text
 oss-audit-24bce11486/
 ├── README.md
+├── outputs/
+    ├── script1.png
+    ├── script2.png
+    ├── script3.png
+    ├── script4.png
+    ├── script5.png
 ├── script1.sh
 ├── script2.sh
 ├── script3.sh
@@ -46,21 +52,21 @@ oss-audit-24bce11486/
 ### Script 1 — System Identity Report  
 Displays a summary of the Linux environment including distribution name, kernel version, user, uptime, and date.
 
-![Output](script1.png)
+![Output](outputs/script1.png)
 
 ### Script 2 — FOSS Package Inspector  
 Checks whether Git is installed and displays package details such as version and basic information.
 
-![Output](script2.png)
+![Output](outputs/script2.png)
 ### Script 3 — Disk and Permission Auditor  
 Analyzes important system directories and reports their size, ownership, and permissions.
 
-![Output](script3.png)
+![Output](outputs/script3.png)
 
 ### Script 4 — Log File Analyzer  
 Reads a log file, counts occurrences of a keyword, and displays a summary with recent matches.  
 
-![Output](script4.png)
+![Output](outputs/script4.png)
 
 **Usage:**
 
@@ -70,7 +76,7 @@ Reads a log file, counts occurrences of a keyword, and displays a summary with r
 ### Script 5 — Open Source Manifesto Generator  
 Takes user input and generates a personalized open-source statement saved to a text file.
 
-![Output](script5.png)
+![Output](outputs/script5.png)
 ---
 
 ## Dependencies  
